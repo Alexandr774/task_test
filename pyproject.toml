@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-task"
+version = "0.1.0"
+description = ""
+authors = ["aleksandrchekalin <aleksandrcekalin082@gmil.com>"]
+readme = "README.md"
+packages = [{include = "test_task"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.4"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
